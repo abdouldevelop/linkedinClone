@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- liaison du fichier html à la feuille de style  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- liaison du fichier html à la feuille de style  -->
+
     <link rel="stylesheet" href="./style.css">
+    <!-- STYLE ASIDE LEFT -->
+    <link rel="stylesheet" href="./styles/left_aside.css">
+    <!-- STYLE ASIDE MAIN -->
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- STYLE ASIDE RIGHT -->
+    <link rel="stylesheet" href="./styles/right_aside.css">
+
+
     <title>Fil d'actualité</title>
 </head>
+
 <body>
-         <!-- <i class="fa-solid fa-house-chimney"></i> 
+    <!-- <i class="fa-solid fa-house-chimney"></i> 
          
          <i class="fa-solid fa-briefcase"></i>
          <i class="fa-solid fa-comment-dots"></i>
@@ -34,20 +48,23 @@
                     <i class="fa-solid fa-house-chimney"></i>
                     <p>Accueil</p>
                 </div>
-                <div class="header-center-bx-active"></div>
+                <div class="header-center-bx-active isactive"></div>
             </div>
-             <!-- réseau -->
-             <div class="header-center-bx">
+            <!-- réseau -->
+            <div class="header-center-bx">
                 <!-- <div class="header-center-bx-notif"> <p>2</p> </div> -->
                 <div class="header-center-bx-content">
-                    <i >
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                            <path d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"></path>
-                         </svg>
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path
+                                d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                            </path>
+                        </svg>
                     </i>
                     <p>Réseau</p>
                 </div>
-                <!-- <div class="header-center-bx-active"></div> -->
+                <div class="header-center-bx-active"></div>
             </div>
 
             <!-- Offres d'emploi -->
@@ -57,32 +74,96 @@
                     <i class="fa-solid fa-briefcase"></i>
                     <p>Offres d'emploi</p>
                 </div>
-                <!-- <div class="header-center-bx-active"></div> -->
+                <div class="header-center-bx-active"></div>
             </div>
 
-             <!-- Messagerie -->
-             <div class="header-center-bx">
+            <!-- Messagerie -->
+            <div class="header-center-bx">
                 <!-- <div class="header-center-bx-notif"> <p>2</p> </div> -->
                 <div class="header-center-bx-content">
                     <i class="fa-solid fa-comment-dots"></i>
                     <p>Messagerie</p>
                 </div>
-                <!-- <div class="header-center-bx-active"></div> -->
+                <div class="header-center-bx-active"></div>
             </div>
 
-             <!-- notification -->
-             <div class="header-center-bx">
-                <div class="header-center-bx-notif"> <p>2</p> </div>
+            <!-- notification -->
+            <div class="header-center-bx">
+                <div class="header-center-bx-notif">
+                    <p>2</p>
+                </div>
                 <div class="header-center-bx-content">
                     <i class="fa-solid fa-bell"></i>
                     <p>Notification</p>
                 </div>
-                <!-- <div class="header-center-bx-active"></div> -->
+                <div class="header-center-bx-active"></div>
+            </div>
+            <!-- notification -->
+            <div class="header-center-bx">
+                <!-- <div class="header-center-bx-notif img-profile">  </div> -->
+                <div class="header-center-bx-content">
+                    <div class="img-profile"> </div>
+                    <p>Vous
+
+                    </p>
+                </div>
+                <div class="header-center-bx-active"></div>
             </div>
 
         </div>
-        <div class="header-right"></div>
+        <!-- header divider -->
+        <div class="header-divider"></div>
+        <div class="header-right">
+
+            <!-- entreprises -->
+            <div class="header-center-bx">
+                <div class="header-center-bx-content">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                            fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path
+                                d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                            </path>
+                        </svg>
+                    </i>
+                    <p>Pour les entreprises</p>
+                </div>
+            </div>
+
+            <div class="header-center-bx">
+                <div class="header-center-bx-content">
+                    <p>Pour un meilleur réseau, essayez Premium gratuitement</p>
+                </div>
+            </div>
+        </div>
     </header>
+    <!-- MAIN -->
+    <div class="main-container">
+        <aside>
+            <div class="left-aside-top" ></div>
+            <div class="left-aside-bottom" ></div>
+        </aside>
+        <main>
+            <div class="main-top">
+
+            </div>
+            <div class="main-divider">
+                <div class="main-divider-left"></div>
+                <div class="main-divider-right">
+                   <p> Classer par : <strong>Pertinence</strong></p>
+                </div>
+            </div>
+            <div class="main-bottom">
+                
+            </div>
+        </main>
+        <aside class="aside-right">
+            <div class="right-aside-top" ></div>
+            <div class="right-aside-bottom" ></div> 
+        </aside>
+
+    </div>
 
 </body>
+
 </html>

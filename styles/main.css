@@ -1,0 +1,38 @@
+main{
+    width: 600px;
+   min-height: 100%;
+
+}
+
+main > div{
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+ 
+}
+
+main .main-top{
+    height: 100px;
+}
+main .main-bottom{
+    height: 60vh;
+}
+
+main  div.main-divider{
+    background-color: transparent;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+main  div.main-divider .main-divider-left{
+    height: 1px;
+    background-color: var(--border-color);
+    width: 70%;
+}
+
+main  div.main-divider .main-divider-right p{
+    font-size: 13px;
+}
